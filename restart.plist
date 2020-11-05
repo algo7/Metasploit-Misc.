@@ -19,5 +19,5 @@
 </plist>
 
 
-<!-- Store under ~/Library/LaunchAgents so the metepreter start when the user login -->
+<!-- Store under ~/Library/LaunchAgents so the metepreter starts everytime when the user login -->
 
